@@ -8,6 +8,7 @@ import {
   FaMapMarkerAlt,
   FaEnvelope
 } from 'react-icons/fa';
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -16,7 +17,7 @@ export default function Footer() {
         {/* Logo and Contact */}
         <div>
           <div className="flex items-center gap-2 mb-6">
-            <img src="https://newtackserviceplatform.com/public/front/images//flogo.webp" alt="Fixhero Logo" className="w-40 h-10" />
+            <Image src="https://newtackserviceplatform.com/public/front/images//flogo.webp" alt="Fixhero Logo" className="w-40 h-10" />
             
           </div>
 

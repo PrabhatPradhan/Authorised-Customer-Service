@@ -5,6 +5,7 @@ import Navbar from "../../Componets/Navbar/Navbar";
 import EnquiryForm from "../../Componets/EnquiryForm/EnquiryForm";
 import ServiceCenterCard from "../../Componets/ServiceCenterCard/ServiceCenterCard";
 import Link from "next/link";
+import Image from "next/image";
 import { FaClock, FaCalendarCheck, FaUsers } from "react-icons/fa";
 
 const blogData = [
@@ -70,7 +71,7 @@ export default function page() {
             </p>
           </div>
           <div className="mt-6 md:mt-0">
-            <img
+            <Image
               src="https://handyman.fixherotheme.com/wp-content/uploads/2023/09/man.png"
               alt="Repairman"
               className="max-h-52"
@@ -88,7 +89,7 @@ export default function page() {
             key={index}
             className="border rounded-lg overflow-hidden shadow hover:shadow-md transition duration-300 bg-white"
           >
-            <img
+            <Image
               src={blog.image}
               alt={blog.title}
               className="w-full h-40 object-cover"

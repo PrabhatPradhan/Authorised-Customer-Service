@@ -5,7 +5,7 @@ import Navbar from "../../Componets/Navbar/Navbar";
 import EnquiryForm from "../../Componets/EnquiryForm/EnquiryForm";
 import ServiceCenterCard from "../../Componets/ServiceCenterCard/ServiceCenterCard";
 import Link from "next/link";
-
+import Image from "next/image";
 export default function page() {
   const [testimonials, setTestimonials] = useState([
     {
@@ -59,7 +59,7 @@ export default function page() {
           </p>
         </div>
         <div className="mt-6 md:mt-0">
-          <img
+          <Image
             src="https://handyman.fixherotheme.com/wp-content/uploads/2023/09/man.png"
             alt="Repairman"
             className="max-h-52"

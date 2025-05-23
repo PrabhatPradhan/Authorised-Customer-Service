@@ -1,10 +1,11 @@
 import { FaPlus } from "react-icons/fa";
 import { FiPhoneCall } from "react-icons/fi";
+import Image from "next/image";
 const CardItem = ({ image, label, title, description }) => (
   <div className="cursor-pointer bg-white border border-gray-200 rounded-md p-6 flex flex-col justify-between shadow-md hover:shadow-2xl hover:scale-[1.03] hover:-translate-y-1 transform transition-all duration-300 ease-in-out relative">
     <div className="flex items-start gap-4">
       <div className="w-12 h-12">
-        <img src={image} alt={title} className="w-full h-full object-contain" />
+        <Image src={image} alt={title} className="w-full h-full object-contain" />
       </div>
       <div>
         <p className="text-xs text-orange-500 font-semibold uppercase">

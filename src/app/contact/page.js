@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../../Componets/Footer/Footer";
 import Navbar from "../../Componets/Navbar/Navbar";
 import Link from "next/link";
+import Image from "next/image";
 import EnquiryForm from "../../Componets/EnquiryForm/EnquiryForm";
 import { FaCheckCircle, FaSmile, FaTrophy } from "react-icons/fa";
 export default function Page() {
@@ -36,7 +37,7 @@ export default function Page() {
             {/* Info Cards */}
             <div className="flex flex-wrap gap-5 mb-10">
               <div className="flex items-center gap-3 bg-white rounded-lg shadow-sm p-5 flex-1 min-w-[220px]">
-                <img
+                <Image
                   src="https://cdn-icons-png.flaticon.com/512/597/597177.png"
                   alt="Phone"
                   className="h-[30px]"
@@ -48,7 +49,7 @@ export default function Page() {
               </div>
 
               <div className="flex items-center gap-3 bg-white rounded-lg shadow-sm p-5 flex-1 min-w-[220px]">
-                <img
+                <Image
                   src="https://cdn-icons-png.flaticon.com/512/561/561127.png"
                   alt="Email"
                   className="h-[30px]"
@@ -60,7 +61,7 @@ export default function Page() {
               </div>
 
               <div className="flex items-center gap-3 bg-white rounded-lg shadow-sm p-5 flex-1 min-w-[220px]">
-                <img
+                <Image
                   src="https://cdn-icons-png.flaticon.com/512/684/684908.png"
                   alt="Address"
                   className="h-[30px]"

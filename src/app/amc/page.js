@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../../Componets/Navbar/Navbar";
 import Footer from "../../Componets/Footer/Footer";
 import Link from "next/link";
+import Image from "next/image";
 import EnquiryForm from "../../Componets/EnquiryForm/EnquiryForm";
 export default function page() {
   return (
@@ -18,7 +19,7 @@ export default function page() {
             </p>
           </div>
           <div className="mt-6 md:mt-0">
-            <img
+            <Image
               src="https://handyman.fixherotheme.com/wp-content/uploads/2023/09/man.png"
               alt="Repairman"
               className="max-h-52"
@@ -35,7 +36,7 @@ export default function page() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 ">
           {/* AMC Cards */}
           <div className="  p-6 text-center shadow     transform transition duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 hover:shadow-lg">
-            <img
+            <Image
               src="https://img.icons8.com/color/96/000000/fridge.png"
               alt="Refrigerator"
               className="mx-auto mb-4"
@@ -44,7 +45,7 @@ export default function page() {
           </div>
 
           <div className="  p-6 text-center shadow  transform transition duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 hover:shadow-lg">
-            <img
+            <Image
               src="https://img.icons8.com/color/96/000000/geyser.png"
               alt="Geyser"
               className="mx-auto mb-4"
@@ -53,7 +54,7 @@ export default function page() {
           </div>
 
           <div className="  p-6 text-center shadow     transform transition duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 hover:shadow-lg">
-            <img
+            <Image
               src="https://img.icons8.com/fluency/96/tv.png"
               alt="Television"
               className="mx-auto mb-4"
@@ -62,7 +63,7 @@ export default function page() {
           </div>
 
           <div className="  p-6 text-center shadow    transform transition duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 hover:shadow-lg">
-            <img
+            <Image
               src="https://img.icons8.com/color/96/air-conditioner.png"
               alt="AC"
               className="mx-auto mb-4"
@@ -71,7 +72,7 @@ export default function page() {
           </div>
 
           <div className="  p-6 text-center shadow     transform transition duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 hover:shadow-lg">
-            <img
+            <Image
               src="https://img.icons8.com/color/96/microwave.png"
               alt="Microwave"
               className="mx-auto mb-4"
@@ -80,7 +81,7 @@ export default function page() {
           </div>
 
           <div className="  p-6 text-center shadow     transform transition duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 hover:shadow-lg">
-            <img
+            <Image
               src="https://img.icons8.com/color/96/washing-machine.png"
               alt="Washing Machine"
               className="mx-auto mb-4"
@@ -89,7 +90,7 @@ export default function page() {
           </div>
 
           <div className="  p-6 text-center shadow     transform transition duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 hover:shadow-lg">
-            <img
+            <Image
               src="https://img.icons8.com/ios-filled/100/kitchen-room.png"
               alt="Chimney"
               className="mx-auto mb-4"
@@ -98,7 +99,7 @@ export default function page() {
           </div>
 
           <div className="  p-6 text-center shadow    transform transition duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 hover:shadow-lg">
-            <img
+            <Image
               src="https://img.icons8.com/color/96/water-purifier.png"
               alt="Water Purifier"
               className="mx-auto mb-4"

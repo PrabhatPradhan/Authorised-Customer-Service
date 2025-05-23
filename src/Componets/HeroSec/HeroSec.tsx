@@ -11,7 +11,7 @@ import {
   FaToilet,
   FaHardHat,
 } from "react-icons/fa";
-
+import Image from "next/image";
 const icons = [
   { Icon: FaPaintRoller, label: "Painting", angle: -90 },
   { Icon: FaHome, label: "Roofing", angle: -35 },
@@ -75,7 +75,7 @@ export default function HeroSec() {
             />
           </svg>
 
-          <img
+          <Image
             src="https://handyman.fixherotheme.com/wp-content/uploads/2023/09/man.png"
             alt="Repairman"
             width={260}

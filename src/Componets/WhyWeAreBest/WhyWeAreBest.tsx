@@ -1,5 +1,6 @@
 import { FaTruck, FaBoxOpen, FaTools } from "react-icons/fa";
 import "../../Componets/WhyWeAreBest/WhyWeAreBest.css"
+import Image from "next/image";
 export default function WhyWeAreBest() {
   return (
     <>
@@ -77,7 +78,7 @@ export default function WhyWeAreBest() {
 
           {/* Right Visual Stats */}
           <div className="flex-1 flex flex-col lg:flex-row items-center gap-8">
-            <img
+            <Image
               src="https://www.ciccomputech.com/wp-content/uploads/2022/01/SmilyTech-500x773-1.png"
               alt="Repair Illustration"
               className="w-full max-w-sm md:max-w-xs lg:max-w-md h-auto"
@@ -180,41 +181,47 @@ export default function WhyWeAreBest() {
         <div className="page-wrapper">
   <div className="carousel-container">
     <div className="carousel-track">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
-      <img src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
-      <img src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
-      <img src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
+      <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
+      <Image src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
+      <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
+      <Image src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
+      <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
+      <Image src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
         
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
-      <img src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
-      <img src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
-      <img src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
-      <img src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
-      <img src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
+      <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
+      <Image src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
+      <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
+      <Image src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
+      <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
+      <Image src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
+           
+      <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
+      <Image src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
+      <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
+      <Image src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
+      <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
+      <Image src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
         
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
-      <img src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
-      <img src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
-      
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
-      <img src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
-      <img src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
-      <img src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
+      <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
+      <Image src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
+      <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
+      <Image src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
+      <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
+      <Image src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
+      <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
+      <Image src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
+      <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
+      <Image src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
+      <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
+      <Image src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
         
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
-      <img src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
-      <img src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
-      
+      <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
+      <Image src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
+      <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
+      <Image src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
+      <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png" alt="WeWork" />
+      <Image src="https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg" alt="Bellway" />
+        
         </div>
   </div>
 </div>

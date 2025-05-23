@@ -4,6 +4,7 @@ import Footer from "../../Componets/Footer/Footer";
 import Navbar from "../../Componets/Navbar/Navbar";
 import EnquiryForm from "../../Componets/EnquiryForm/EnquiryForm";
 import "../about/about.css";
+import Image from "next/image";
 import Link from "next/link";
 import { FaCheckCircle, FaSmile, FaTrophy } from "react-icons/fa";
 import ServiceCenterCard from "../../Componets/ServiceCenterCard/ServiceCenterCard";
@@ -59,7 +60,7 @@ export default function Page() {
               <div className="flex flex-col sm:flex-row gap-6 mt-6 animate-fadeInUp">
                 {/* Stat 1 */}
                 <div className="flex items-center gap-3 transition-transform duration-300 hover:scale-105">
-                  <img
+                  <Image
                     src="https://cdn-icons-png.freepik.com/256/9540/9540741.png?semt=ais_hybrid"
                     alt="Worker Icon"
                     className="w-10 h-10 transition-transform duration-300 hover:rotate-6"
@@ -72,7 +73,7 @@ export default function Page() {
 
                 {/* Stat 2 */}
                 <div className="flex items-center gap-3 transition-transform duration-300 hover:scale-105">
-                  <img
+                  <Image
                     src="https://c8.alamy.com/comp/2R1ND7R/experience-icon-monochrome-simple-sign-from-critical-thinking-collection-experience-icon-for-logo-templates-web-design-and-infographics-2R1ND7R.jpg"
                     alt="Experience Icon"
                     className="w-10 h-10 transition-transform duration-300 hover:rotate-6"
@@ -112,7 +113,7 @@ export default function Page() {
             {/* Right Side Image */}
             <div className="relative animate-fadeInUp">
               <div className="relative z-10">
-                <img
+                <Image
                   src="https://html.kodesolution.com/2023/airko-html/images/resource/about-1-1.jpg"
                   alt="AC Repair"
                   className="rounded-md shadow-lg"
@@ -144,7 +145,7 @@ export default function Page() {
       </section>
       <section className="relative bg-black text-white overflow-hidden">
         <div className="absolute inset-0">
-          <img
+          <Image
             src="https://img.freepik.com/free-photo/electrician-working-electric-car_53876-124171.jpg"
             alt="background"
             className="w-full h-full object-cover opacity-30"
@@ -260,7 +261,7 @@ export default function Page() {
 
             {/* Right Side Image */}
             <div className="relative">
-              <img
+              <Image
                 src="https://unicktheme.com/lsicool/assets/images/resources/work-v2-img1.png"
                 alt="Technician"
                 className="w-[35rem] mx-auto   "
@@ -350,7 +351,7 @@ export default function Page() {
                 "https://upload.wikimedia.org/wikipedia/commons/d/d4/WeWork_logo.png",
                 "https://marpol.co.uk/wp-content/uploads/Bellway-logo-clients-black-white.jpg",
               ].map((src, index) => (
-                <img
+                <Image
                   key={index}
                   src={src}
                   alt={`Logo-${index}`}

@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../../Componets/Footer/Footer'
 import Navbar from '../../Componets/Navbar/Navbar'
 import Link from "next/link";
+import Image from "next/image";
 import EnquiryForm from "../../Componets/EnquiryForm/EnquiryForm";
 export default function page() {
   return (
@@ -16,7 +17,7 @@ export default function page() {
             </p>
           </div>
           <div className="mt-6 md:mt-0">
-            <img
+            <Image
               src="https://handyman.fixherotheme.com/wp-content/uploads/2023/09/man.png"
               alt="Repairman"
               className="max-h-52"
@@ -98,7 +99,7 @@ export default function page() {
 
         {/* Image Section */}
         <div className="w-full">
-          <img
+          <Image
             src="https://newtackserviceplatform.com/public/front/images/Appointment.jpg"
             alt="Appointment"
             className="w-full h-auto rounded shadow"

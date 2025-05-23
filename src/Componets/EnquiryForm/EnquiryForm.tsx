@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { MdEmojiPeople, MdStars, MdThumbUp } from "react-icons/md";
 import { FaPhoneAlt, FaEnvelope, FaWhatsapp, FaTimes } from "react-icons/fa";
-
+import Image from "next/image";
 export default function EnquiryForm() {
   const [show, setShow] = useState(false);
   const [comment, setComment] = useState("");
@@ -117,7 +117,7 @@ export default function EnquiryForm() {
             {/* Left Content */}
             <div className="space-y-6 bg-orange-100">
               <div className="overflow-hidden">
-                <img
+                <Image
                   src="https://api.mintoholidays.com/uploads/Banner/1742209575571.png"
                   alt="Char Dham Yatra"
                   width={600}
